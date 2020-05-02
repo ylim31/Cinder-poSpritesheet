@@ -8,8 +8,8 @@ if(NOT TARGET Cinder-poSpritesheet)
     # Make a list of source files and define that to be ${SOURCE_LIST}.
     file(GLOB SOURCE_LIST CONFIGURE_DEPENDS
             "${Cinder-poSpritesheet_PROJECT_ROOT}/src/poScene/SpriteView.cpp"
-            "${Cinder-poSpritesheet_PROJECT_ROOT}/src/poSpriteView/poSpritesheet.cpp"
-            "${Cinder-poSpritesheet_PROJECT_ROOT}/src/poSpriteView/poSpritesheetAnimation.cpp"
+            "${Cinder-poSpritesheet_PROJECT_ROOT}/src/poSpritesheet/poSpritesheet.cpp"
+            "${Cinder-poSpritesheet_PROJECT_ROOT}/src/poSpritesheet/poSpritesheetAnimation.cpp"
             )
 
     # Create the library!
